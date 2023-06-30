@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja{
+    background-color: #aba5a3;
+    height: 200px;
+    width: 80%;
+    position: relative;
+    border-radius: 200px;
+    
+}
+.dark{
+    background-color:#000027;
+    height: 200px;
+    width:200px;
+    position: absolute;
+    left: 0;
+    transition: all 1s;
+    border-radius: 50%;  
+    
+}
+
+.claro{
+    background-color: #e3f2fd;
+    height: 200px;
+    width:200px;
+    position: absolute;
+    right:0;
+    transition: all 1s;
+    border-radius: 50%;  
+}
+
+.cuerpo{
+    background-color: #000027;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
